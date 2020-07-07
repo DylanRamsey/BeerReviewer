@@ -1,0 +1,192 @@
+body {
+  background-image: url(images/beerWall2.jpg);
+}
+
+#beer-select {
+  margin-top: 10px;
+  padding: 0;
+  font-family: "Lobster", cursive;
+  min-width: 210px;
+}
+#country-select {
+  font-family: "Lobster", cursive;
+  min-width: 210px;
+  padding: 0;
+  margin: 0;
+}
+
+#beerNameEntree {
+  font-family: "Lobster", cursive;
+  padding: 0;
+}
+
+#beerNameLabel {
+  font-family: "Lobster", cursive;
+  padding: 0;
+  margin: 0;
+  min-width: 150px;
+}
+
+.bi.bi-star-fill1 :hover {
+  color: gold;
+}
+
+.wrapper {
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nameTypeOrigin {
+  display: flex;
+  flex-direction: column;
+}
+
+.beerNameContainer {
+  margin-top: 10px;
+}
+
+.beerSelectLabel {
+  font-family: "Lobster", cursive;
+  min-width: 150px;
+}
+
+.countrySelectLabel {
+  font-family: "Lobster", cursive;
+  min-width: 210px;
+}
+
+.pageHeader {
+  color: #000;
+  border-style: solid;
+  border-color: #000;
+  border-width: 2px;
+  border-radius: 10px;
+  background-color: beige;
+  font-family: "Lobster", cursive;
+  padding: 25px;
+}
+
+.headerHeader {
+  font-size: 42px;
+}
+
+.newBeerReview {
+  display: none;
+  color: #000;
+  border-style: solid;
+  border-color: #000;
+  border-width: 2px;
+  border-radius: 10px;
+  background-color: beige;
+  margin-top: 10px;
+  padding: 25px;
+}
+
+.entryBox {
+  margin-top: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+  border-style: solid;
+  border-color: #000;
+  border-width: 2px;
+  border-radius: 10px;
+  background-color: beige;
+}
+
+.textBox {
+  margin-top: 20px;
+  width: 80%;
+
+  padding: 10px;
+  font-family: "Lobster", cursive;
+}
+
+.submitButton {
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  min-width: 189px;
+  min-height: 50px;
+  font-family: "Lobster", cursive;
+}
+
+.bi.bi-star-fill {
+  color: #000;
+  margin: 10 px;
+}
+
+.newBeerReview {
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+  animation: newBeerReview ease 1s;
+  -webkit-animation: newBeerReview ease 1s;
+  -moz-animation: newBeerReview ease 1s;
+  -o-animation: newBeerReview ease 1s;
+  -ms-animation: v ease 1s;
+}
+
+.oldBeerReview {
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+  margin-top: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+  border-style: solid;
+  border-color: #000;
+  border-width: 2px;
+  border-radius: 10px;
+  background-color: beige;
+}
+@keyframes newBeerReview {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes newBeerReview {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes newBeerReview {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes newBeerReview {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes newBeerReview {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
